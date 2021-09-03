@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="icon" type="icon" href="Parliament Logo.jpg">
+    <style>
+
+body{
+  background: #f4f4f4;
+  color: #555;
+  font-family: "Helvetica";
+  font-size: 18px;
+  line-height: 1.6em;
+  margin:0;
+}
+
+#main-header a {
+  text-decoration: none;
+  color:white;
+}
+
+  
+#main-header a:active{
+  color: lightblue;
+}
+  
+.container{
+  width:80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+.container{
+  width:80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+#main-header{
+  background-color: #221C35;
+  color: white;
+  border-top: 0.1px solid lightgray;
+  border-bottom: 0.1px solid lightgray;
+}
+
+#navbar{
+  background: #333;
+  color:white;
+  border-bottom: 0.1px solid lightgray;
+}
+
+#navbar ul{
+  padding:0;
+  list-style: none;
+}
+
+#navbar li{
+  display: inline;
+}
+
+#navbar a{
+  color:white;
+  text-decoration: none;
+  font-size:20px;
+  padding-right:20px;
+}
+
+#navbar a:active {
+  color:lightblue;
+}
+
+#showcase{
+  background: url(purple\ gradient\ background.jpg);
+  background-position: center right;
+  min-height: 200px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#showcase h1{
+  color: white;
+  font-size: 60px;
+  line-height: 1.6em;
+  padding-top: 30px;
+}
+
+img {
+  width: 150px;
+  height:200px;
+  border: 1px black solid;
+}
+
+table {
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  border: 1px solid black;
+}
+
+th {
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+th, td {
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 0 5px;
+}
+
+#main{
+  float: left;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+#main p{
+  text-align: justify;
+}
+
+#sidebar{
+  float: right;
+  width: 30%;
+  background: #333;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#main-footer{
+  background: #333;
+  color:#fff;
+  text-align: center;
+  padding: 20px;
+  margin-top:40px;
+}
+
+@media(max-width:600px){
+  #main{
+    width: 100%;
+    float: none;
+  }
+  #sidebar{
+    width: 100%;
+    float: none;
+  }
+}
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1><a href="Homepage.html">UK Parliament</a></h1>
+        </div>
+    </header>
+
+    <nav id="navbar" >
+        <div class="container">
+          <ul>
+            <li><a href="House of Commons.html">House of Commons</a></li>
+            <li><a href="House of Lords.html">House of Lords</a></li>
+            <li><a href="Monarch.html">Monarch</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <section id="showcase">
+        <div class="container">
+          <h1>UK Parliament</h1>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="main">
+            <h1>Welcome to the website of the United Kingdom's parliament.</h1>
+            <p>The UK Parliament has two Houses that work on behalf of UK citizens to check and challenge the work of Government, make and shape effective laws, and debate/make decisions on the big issues of the day.</p>
+            <table>
+                <caption><strong>Current Speakers of the Houses</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Speaker of the House of Commons</th>
+                        <th>Speaker of the House of Lords</th>
+                    <tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="Sir Lindsay Hoyle.jpg" alt="Sir Lindsay Hoyle"></td>
+                        
+                        <td><img src="Lord McFall of Alcluith.jpg" alt="The Lord McFall of Alcluith"></td>
+                        
+                    </tr>
+                    <tr>
+                        <th>The Right Honourable Sir Lindsay Hoyle</th>
+                        <th>The Lord McFall of Alcluith</th>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <aside id="sidebar">
+            <p>Queen Elizabeth II, current Queen of the United Kingdom and 15 other Commonwealth realms.</p>
+            <img src="Queen Elizabeth II.jpg">    
+        </aside>
+    </div>
+
+    <footer id="main-footer">
+        <p>Copyright (c) 2021 Copyright Holder All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
